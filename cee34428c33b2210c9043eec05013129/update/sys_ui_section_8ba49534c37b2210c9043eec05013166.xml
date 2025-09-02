@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_ui_section caption="Ratings" section_id="8d23c870c3f32210c9043eec050131cb" sys_domain="global" table="x_1092529_sharkf_0_media" version="3" view="">
+    <sys_ui_section caption="Rating" section_id="8ba49534c37b2210c9043eec05013166" sys_domain="global" table="x_1092529_sharkf_0_media" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>avarage_rating</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-02 14:54:38</sys_created_on>
-            <sys_id>91230c70c3f32210c9043eec05013118</sys_id>
+            <sys_created_on>2025-09-02 20:50:50</sys_created_on>
+            <sys_id>17a49534c37b2210c9043eec0501319e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Ratings" display_value="Ratings" name="x_1092529_sharkf_0_media" sys_domain="global" view="Default view">8d23c870c3f32210c9043eec050131cb</sys_ui_section>
+            <sys_ui_section caption="Rating" display_value="Rating" name="x_1092529_sharkf_0_media" sys_domain="global" view="Default view">8ba49534c37b2210c9043eec05013166</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-02 14:54:38</sys_updated_on>
+            <sys_updated_on>2025-09-02 20:50:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>imdb_rating</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-02 14:54:38</sys_created_on>
-            <sys_id>99230c70c3f32210c9043eec05013118</sys_id>
+            <sys_created_on>2025-09-02 20:50:50</sys_created_on>
+            <sys_id>1fa49534c37b2210c9043eec0501319e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Ratings" display_value="Ratings" name="x_1092529_sharkf_0_media" sys_domain="global" view="Default view">8d23c870c3f32210c9043eec050131cb</sys_ui_section>
+            <sys_ui_section caption="Rating" display_value="Rating" name="x_1092529_sharkf_0_media" sys_domain="global" view="Default view">8ba49534c37b2210c9043eec05013166</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-02 14:54:38</sys_updated_on>
+            <sys_updated_on>2025-09-02 20:50:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-02 14:54:38</sys_created_on>
-            <sys_id>59230c70c3f32210c9043eec05013125</sys_id>
+            <sys_created_on>2025-09-02 20:50:50</sys_created_on>
+            <sys_id>17a49534c37b2210c9043eec0501319f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Ratings" display_value="Ratings" name="x_1092529_sharkf_0_media" sys_domain="global" view="Default view">8d23c870c3f32210c9043eec050131cb</sys_ui_section>
+            <sys_ui_section caption="Rating" display_value="Rating" name="x_1092529_sharkf_0_media" sys_domain="global" view="Default view">8ba49534c37b2210c9043eec05013166</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-02 14:54:38</sys_updated_on>
+            <sys_updated_on>2025-09-02 20:50:50</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>metascore</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-02 14:54:38</sys_created_on>
-            <sys_id>51230c70c3f32210c9043eec05013126</sys_id>
+            <sys_created_on>2025-09-02 20:50:50</sys_created_on>
+            <sys_id>1fa49534c37b2210c9043eec0501319f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Ratings" display_value="Ratings" name="x_1092529_sharkf_0_media" sys_domain="global" view="Default view">8d23c870c3f32210c9043eec050131cb</sys_ui_section>
+            <sys_ui_section caption="Rating" display_value="Rating" name="x_1092529_sharkf_0_media" sys_domain="global" view="Default view">8ba49534c37b2210c9043eec05013166</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-02 14:54:38</sys_updated_on>
+            <sys_updated_on>2025-09-02 20:50:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,36 +60,36 @@
             <element>awards</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-02 14:54:38</sys_created_on>
-            <sys_id>59230c70c3f32210c9043eec05013126</sys_id>
+            <sys_created_on>2025-09-02 20:50:50</sys_created_on>
+            <sys_id>17a49534c37b2210c9043eec050131a0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Ratings" display_value="Ratings" name="x_1092529_sharkf_0_media" sys_domain="global" view="Default view">8d23c870c3f32210c9043eec050131cb</sys_ui_section>
+            <sys_ui_section caption="Rating" display_value="Rating" name="x_1092529_sharkf_0_media" sys_domain="global" view="Default view">8ba49534c37b2210c9043eec05013166</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-02 14:54:38</sys_updated_on>
+            <sys_updated_on>2025-09-02 20:50:50</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
-            <caption>Ratings</caption>
+            <caption>Rating</caption>
             <header>false</header>
             <name>x_1092529_sharkf_0_media</name>
             <roles/>
             <sys_class_name>sys_ui_section</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-09-02 14:54:37</sys_created_on>
+            <sys_created_on>2025-09-02 20:50:49</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>8d23c870c3f32210c9043eec050131cb</sys_id>
+            <sys_id>8ba49534c37b2210c9043eec05013166</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_1092529_sharkf_0_media</sys_name>
             <sys_overrides/>
             <sys_package display_value="Sharkflix" source="x_1092529_sharkf_0">cee34428c33b2210c9043eec05013129</sys_package>
             <sys_policy/>
             <sys_scope display_value="Sharkflix">cee34428c33b2210c9043eec05013129</sys_scope>
-            <sys_update_name>sys_ui_section_8d23c870c3f32210c9043eec050131cb</sys_update_name>
+            <sys_update_name>sys_ui_section_8ba49534c37b2210c9043eec05013166</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-09-02 14:54:37</sys_updated_on>
+            <sys_updated_on>2025-09-02 20:50:49</sys_updated_on>
             <sys_user/>
             <title>false</title>
             <view display_value="Default view" name="NULL">Default view</view>
