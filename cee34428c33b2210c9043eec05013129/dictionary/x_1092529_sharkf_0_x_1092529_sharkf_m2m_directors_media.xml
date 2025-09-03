@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="b59dcd78c33b2210c9043eec050131de" label="x_1092529_sharkf_m2m_Directors_Medias" max_length="40" name="x_1092529_sharkf_0_x_1092529_sharkf_m2m_directors_media" type="collection">
+    <element db_object_id="b59dcd78c33b2210c9043eec050131de" label="Director x Media" max_length="40" name="x_1092529_sharkf_0_x_1092529_sharkf_m2m_directors_media" type="collection">
         <element attributes="encode_utf8=false" label="Directors" max_length="32" name="x_1092529_sharkf_0_director" reference="x_1092529_sharkf_0_director" type="reference"/>
         <element attributes="encode_utf8=false" label="Medias" max_length="32" name="x_1092529_sharkf_0_media" reference="x_1092529_sharkf_0_media" type="reference"/>
         <index name="index">

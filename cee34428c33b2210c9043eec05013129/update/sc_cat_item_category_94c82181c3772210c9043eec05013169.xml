@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="teste de record producer">80e72141c3772210c9043eec05013147</sc_cat_item>
+        <sc_cat_item display_value="Media Review">80e72141c3772210c9043eec05013147</sc_cat_item>
         <sc_category display_value="Sharkflix">be1e5905c3372210c9043eec050131e1</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>admin</sys_created_by>

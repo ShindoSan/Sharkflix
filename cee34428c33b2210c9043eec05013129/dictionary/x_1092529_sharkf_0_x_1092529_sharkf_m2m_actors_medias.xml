@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="6e2dcdb8c33b2210c9043eec050131ef" label="x_1092529_sharkf_m2m_Actors_Medias" max_length="40" name="x_1092529_sharkf_0_x_1092529_sharkf_m2m_actors_medias" type="collection">
+    <element db_object_id="6e2dcdb8c33b2210c9043eec050131ef" label="Actor x Media" max_length="40" name="x_1092529_sharkf_0_x_1092529_sharkf_m2m_actors_medias" type="collection">
         <element attributes="encode_utf8=false" label="Medias" max_length="32" name="x_1092529_sharkf_0_media" reference="x_1092529_sharkf_0_media" type="reference"/>
         <element attributes="encode_utf8=false" label="Actors" max_length="32" name="x_1092529_sharkf_0_actor" reference="x_1092529_sharkf_0_actor" type="reference"/>
         <index name="index">
