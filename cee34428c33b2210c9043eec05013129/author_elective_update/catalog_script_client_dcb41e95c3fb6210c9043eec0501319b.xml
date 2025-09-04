@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="DELETE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Copy of Media Review">afa49a95c3fb6210c9043eec05013166</cat_item>
+        <cat_variable>IO:bfa4da95c3fb6210c9043eec0501315b</cat_variable>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Load poster</name>
+        <order/>
+        <published_ref/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+   if (isLoading) {
+      return;
+   }
+	if(newValue == ""){
+		top.window.document.getElementById("poster_img").src = "";
+	}
+   top.window.document.getElementById("poster_img").src = g_form.getValue("poster_url");
+
+   
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-04 14:47:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dcb41e95c3fb6210c9043eec0501319b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Load poster</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sharkflix" source="x_1092529_sharkf_0">cee34428c33b2210c9043eec05013129</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sharkflix">cee34428c33b2210c9043eec05013129</sys_scope>
+        <sys_update_name>catalog_script_client_dcb41e95c3fb6210c9043eec0501319b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-04 14:47:30</sys_updated_on>
+        <table/>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <va_supported>true</va_supported>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sharkflix">cee34428c33b2210c9043eec05013129</application>
+        <file_path/>
+        <instance_id>da069ff1eb68d2d4e483f459bad0cdc9</instance_id>
+        <instance_name>dev288635</instance_name>
+        <name>catalog_script_client_dcb41e95c3fb6210c9043eec0501319b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Copy of Media Review"&gt;afa49a95c3fb6210c9043eec05013166&lt;/cat_item&gt;&lt;cat_variable&gt;IO:bfa4da95c3fb6210c9043eec0501315b&lt;/cat_variable&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Load poster&lt;/name&gt;&lt;order/&gt;&lt;published_ref/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+   if (isLoading) {
+      return;
+   }
+	if(newValue == ""){
+		top.window.document.getElementById("poster_img").src = "";
+	}
+   top.window.document.getElementById("poster_img").src = g_form.getValue("poster_url");
+
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-04 14:47:30&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;dcb41e95c3fb6210c9043eec0501319b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Load poster&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Sharkflix" source="x_1092529_sharkf_0"&gt;cee34428c33b2210c9043eec05013129&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Sharkflix"&gt;cee34428c33b2210c9043eec05013129&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_dcb41e95c3fb6210c9043eec0501319b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-04 14:47:30&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;va_supported&gt;true&lt;/va_supported&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1764603676</payload_hash>
+        <record_name>Load poster</record_name>
+        <reverted_from/>
+        <source>1e0d9720c3332210c9043eec050131d6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-04 14:47:30</sys_created_on>
+        <sys_id>98b41e95c3fb6210c9043eec050131b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19915326e440000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-04 14:47:30</sys_updated_on>
+        <type>Catalog Client Scripts</type>
+        <update_guid>9cb41e95e5fb62101f8db15df3811eb0</update_guid>
+        <update_guid_history>9cb41e95e5fb62101f8db15df3811eb0:1764603676</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Load poster">94007ed5c37f6210c9043eec0501319f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-04 16:46:49</sys_created_on>
+        <sys_db_object display_value="" name="catalog_script_client">catalog_script_client</sys_db_object>
+        <sys_id>1b6eb7f59113493489d4687cfa433949</sys_id>
+        <sys_metadata>dcb41e95c3fb6210c9043eec0501319b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Load poster</sys_name>
+        <sys_package display_value="Sharkflix" source="x_1092529_sharkf_0">cee34428c33b2210c9043eec05013129</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Sharkflix">cee34428c33b2210c9043eec05013129</sys_scope>
+        <sys_scope_delete display_value="">b6e7871a485b4e588c97b552211b0bc4</sys_scope_delete>
+        <sys_update_name>catalog_script_client_dcb41e95c3fb6210c9043eec0501319b</sys_update_name>
+        <sys_update_version display_value="catalog_script_client_dcb41e95c3fb6210c9043eec0501319b">98b41e95c3fb6210c9043eec050131b1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-04 16:46:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

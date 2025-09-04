@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1092529_sharkf_0.MediaUtilsClient</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>MediaUtilsClient</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var MediaUtilsClient = Class.create();
+MediaUtilsClient.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    
+    getMediaData: function() {
+        var media_sys_id = this.getParameter("sysparm_media_sys_id");
+        var grMedia = new GlideRecord("x_1092529_sharkf_0_media");
+        grMedia.get(media_sys_id);
+        
+        return JSON.stringify({
+            synopsis: grMedia.getValue("synopsis"),
+            average: grMedia.getValue("average"),
+            poster_url: grMedia.getValue("poster")
+        });
+    },
+
+    type: 'MediaUtilsClient'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-04 17:21:33</sys_created_on>
+        <sys_id>45e73e11c3bf6210c9043eec050131b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MediaUtilsClient</sys_name>
+        <sys_package display_value="Sharkflix" source="x_1092529_sharkf_0">cee34428c33b2210c9043eec05013129</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Sharkflix">cee34428c33b2210c9043eec05013129</sys_scope>
+        <sys_update_name>sys_script_include_45e73e11c3bf6210c9043eec050131b9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-04 17:21:33</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="DELETE">
+        <id>45e73e11c3bf6210c9043eec050131b9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-04 17:21:33</sys_created_on>
+        <sys_id>34f77251c3bf6210c9043eec05013123</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-04 17:21:33</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sharkflix">cee34428c33b2210c9043eec05013129</application>
+        <file_path/>
+        <instance_id>da069ff1eb68d2d4e483f459bad0cdc9</instance_id>
+        <instance_name>dev288635</instance_name>
+        <name>sys_script_include_45e73e11c3bf6210c9043eec050131b9</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1092529_sharkf_0.MediaUtilsClient&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;MediaUtilsClient&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var MediaUtilsClient = Class.create();
+MediaUtilsClient.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    
+    getMediaData: function() {
+        var media_sys_id = this.getParameter("sysparm_media_sys_id");
+        var grMedia = new GlideRecord("x_1092529_sharkf_0_media");
+        grMedia.get(media_sys_id);
+        
+        return JSON.stringify({
+            synopsis: grMedia.getValue("synopsis"),
+            average: grMedia.getValue("average"),
+            poster_url: grMedia.getValue("poster")
+        });
+    },
+
+    type: 'MediaUtilsClient'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-04 17:21:33&lt;/sys_created_on&gt;&lt;sys_id&gt;45e73e11c3bf6210c9043eec050131b9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;MediaUtilsClient&lt;/sys_name&gt;&lt;sys_package display_value="Sharkflix" source="x_1092529_sharkf_0"&gt;cee34428c33b2210c9043eec05013129&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Sharkflix"&gt;cee34428c33b2210c9043eec05013129&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_45e73e11c3bf6210c9043eec050131b9&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-04 17:21:33&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;45e73e11c3bf6210c9043eec050131b9&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-04 17:21:33&lt;/sys_created_on&gt;&lt;sys_id&gt;34f77251c3bf6210c9043eec05013123&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-04 17:21:33&lt;/sys_updated_on&gt;&lt;table&gt;sys_script_include&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-814594563</payload_hash>
+        <record_name>MediaUtilsClient</record_name>
+        <reverted_from/>
+        <source>1e0d9720c3332210c9043eec050131d6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-04 17:21:33</sys_created_on>
+        <sys_id>7cf73e51c3bf6210c9043eec050131a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19915bf76e50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-04 17:21:33</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>70f73e51d8bf6210301ffc131bbdc3a2</update_guid>
+        <update_guid_history>70f73e51d8bf6210301ffc131bbdc3a2:-814594563</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-04 17:27:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>2b5c6f2b96734ef489f01f798d362ce1</sys_id>
+        <sys_metadata>45e73e11c3bf6210c9043eec050131b9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>MediaUtilsClient</sys_name>
+        <sys_package display_value="Sharkflix" source="x_1092529_sharkf_0">cee34428c33b2210c9043eec05013129</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Sharkflix">cee34428c33b2210c9043eec05013129</sys_scope>
+        <sys_scope_delete display_value="">b6e7871a485b4e588c97b552211b0bc4</sys_scope_delete>
+        <sys_update_name>sys_script_include_45e73e11c3bf6210c9043eec050131b9</sys_update_name>
+        <sys_update_version display_value="sys_script_include_45e73e11c3bf6210c9043eec050131b9">7cf73e51c3bf6210c9043eec050131a2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-04 17:27:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
