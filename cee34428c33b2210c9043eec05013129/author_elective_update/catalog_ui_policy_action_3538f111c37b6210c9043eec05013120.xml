@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Media Review">80e72141c3772210c9043eec05013147</catalog_item>
+        <catalog_variable>IO:540496c5c33b2210c9043eec05013171</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>300</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-04 12:43:23</sys_created_on>
+        <sys_id>3538f111c37b6210c9043eec05013120</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>poster_url</sys_name>
+        <sys_package display_value="Sharkflix" source="x_1092529_sharkf_0">cee34428c33b2210c9043eec05013129</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sharkflix">cee34428c33b2210c9043eec05013129</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_3538f111c37b6210c9043eec05013120</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-04 14:27:41</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Mostrar dados">cb97fd9dc33b6210c9043eec050131af</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>poster_url</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=3538f111c37b6210c9043eec05013120"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sharkflix">cee34428c33b2210c9043eec05013129</application>
+        <file_path/>
+        <instance_id>da069ff1eb68d2d4e483f459bad0cdc9</instance_id>
+        <instance_name>dev288635</instance_name>
+        <name>catalog_ui_policy_action_3538f111c37b6210c9043eec05013120</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Media Review">80e72141c3772210c9043eec05013147</catalog_item><catalog_variable>IO:540496c5c33b2210c9043eec05013171</catalog_variable><cleared>false</cleared><disabled>true</disabled><field/><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><order>300</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-04 12:43:23</sys_created_on><sys_id>3538f111c37b6210c9043eec05013120</sys_id><sys_mod_count>4</sys_mod_count><sys_name>poster_url</sys_name><sys_package display_value="Sharkflix" source="x_1092529_sharkf_0">cee34428c33b2210c9043eec05013129</sys_package><sys_policy/><sys_scope display_value="Sharkflix">cee34428c33b2210c9043eec05013129</sys_scope><sys_update_name>catalog_ui_policy_action_3538f111c37b6210c9043eec05013120</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2025-09-04 14:27:41</sys_updated_on><table/><ui_policy display_value="Mostrar dados">cb97fd9dc33b6210c9043eec050131af</ui_policy><value/><value_action>ignore</value_action><variable>poster_url</variable><variable_set/><visible>true</visible></catalog_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=3538f111c37b6210c9043eec05013120"/></record_update>]]></payload>
+        <payload_hash>2001469538</payload_hash>
+        <record_name>poster_url</record_name>
+        <reverted_from/>
+        <source>1e0d9720c3332210c9043eec050131d6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-04 14:27:42</sys_created_on>
+        <sys_id>9620deddc3bb6210c9043eec0501314a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19915204e750000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-04 14:27:42</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>1e20dedd23bb621004132d3137f15049</update_guid>
+        <update_guid_history>1e20dedd23bb621004132d3137f15049:2001469538,c4fab555557b6210f9e8a4a95a735f5c:1417434654,e0d8b951067b6210a08acc9b2f578241:633724001,438871512d7b62108a0103a1ebc2f798:-1608067421,5248f511f87b6210c4318ad5a280578f:1774305247</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="poster_url">20a15691c3fb6210c9043eec050131f3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-09-04 14:34:08</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>8ba225792f164280b7bef9562b33c400</sys_id>
+        <sys_metadata>3538f111c37b6210c9043eec05013120</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>poster_url</sys_name>
+        <sys_package display_value="Sharkflix" source="x_1092529_sharkf_0">cee34428c33b2210c9043eec05013129</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Sharkflix">cee34428c33b2210c9043eec05013129</sys_scope>
+        <sys_scope_delete display_value="">b6e7871a485b4e588c97b552211b0bc4</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_3538f111c37b6210c9043eec05013120</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_3538f111c37b6210c9043eec05013120">9620deddc3bb6210c9043eec0501314a</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-04 14:34:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
