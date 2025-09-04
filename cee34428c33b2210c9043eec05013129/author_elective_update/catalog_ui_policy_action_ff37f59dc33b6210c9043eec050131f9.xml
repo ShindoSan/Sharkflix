@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Media Review">80e72141c3772210c9043eec05013147</catalog_item>
+        <catalog_variable>IO:6ea031c9c3772210c9043eec05013100</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <order>200</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-04 12:38:51</sys_created_on>
+        <sys_id>ff37f59dc33b6210c9043eec050131f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>rating</sys_name>
+        <sys_package display_value="Sharkflix" source="x_1092529_sharkf_0">cee34428c33b2210c9043eec05013129</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sharkflix">cee34428c33b2210c9043eec05013129</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_ff37f59dc33b6210c9043eec050131f9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-04 12:38:51</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Media / rating mandatório">56c67d5dc33b6210c9043eec050131d6</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>rating</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=ff37f59dc33b6210c9043eec050131f9"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sharkflix">cee34428c33b2210c9043eec05013129</application>
+        <file_path/>
+        <instance_id>da069ff1eb68d2d4e483f459bad0cdc9</instance_id>
+        <instance_name>dev288635</instance_name>
+        <name>catalog_ui_policy_action_ff37f59dc33b6210c9043eec050131f9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Media Review">80e72141c3772210c9043eec05013147</catalog_item><catalog_variable>IO:6ea031c9c3772210c9043eec05013100</catalog_variable><cleared>false</cleared><disabled>ignore</disabled><field/><field_message/><field_message_type>none</field_message_type><mandatory>true</mandatory><order>200</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-04 12:38:51</sys_created_on><sys_id>ff37f59dc33b6210c9043eec050131f9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>rating</sys_name><sys_package display_value="Sharkflix" source="x_1092529_sharkf_0">cee34428c33b2210c9043eec05013129</sys_package><sys_policy/><sys_scope display_value="Sharkflix">cee34428c33b2210c9043eec05013129</sys_scope><sys_update_name>catalog_ui_policy_action_ff37f59dc33b6210c9043eec050131f9</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-04 12:38:51</sys_updated_on><table/><ui_policy display_value="Media / rating mandatório">56c67d5dc33b6210c9043eec050131d6</ui_policy><value/><value_action>ignore</value_action><variable>rating</variable><variable_set/><visible>ignore</visible></catalog_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=ff37f59dc33b6210c9043eec050131f9"/></record_update>]]></payload>
+        <payload_hash>-424233592</payload_hash>
+        <record_name>rating</record_name>
+        <reverted_from/>
+        <source>1e0d9720c3332210c9043eec050131d6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-04 12:38:52</sys_created_on>
+        <sys_id>8047399dc33b6210c9043eec05013103</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19914bca9650000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-04 12:38:52</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>8447399dca3b6210152256df4a791e02</update_guid>
+        <update_guid_history>8447399dca3b6210152256df4a791e02:-424233592</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="rating">8f47799dc33b6210c9043eec05013179</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-04 12:39:04</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>4efbb71dc7e0481099dc9b66db2ffea4</sys_id>
+        <sys_metadata>ff37f59dc33b6210c9043eec050131f9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>rating</sys_name>
+        <sys_package display_value="Sharkflix" source="x_1092529_sharkf_0">cee34428c33b2210c9043eec05013129</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Sharkflix">cee34428c33b2210c9043eec05013129</sys_scope>
+        <sys_scope_delete display_value="">b6e7871a485b4e588c97b552211b0bc4</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_ff37f59dc33b6210c9043eec050131f9</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_ff37f59dc33b6210c9043eec050131f9">8047399dc33b6210c9043eec05013103</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-04 12:39:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
