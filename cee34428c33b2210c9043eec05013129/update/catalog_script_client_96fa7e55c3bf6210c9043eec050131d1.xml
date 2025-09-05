@@ -19,29 +19,36 @@
         <order/>
         <published_ref/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
-    if (isLoading || newValue == '') {
+    if (isLoading) {
         return;
     }
 
-    var ga = new GlideAjax("MediaUtilsClient");
-    ga.addParam("sysparm_name", "getMediaData");
-    ga.addParam("sysparm_media_sys_id", newValue);
+    if (newValue != "") { 
 
-    ga.getXMLAnswer(function(response) {
-        var objResponse = JSON.parse(response);
-        g_form.setValue("avarage_rating", objResponse.avarage_rating);
-        g_form.setValue("synopsis", objResponse.synopsis);
-        top.window.document.getElementById("poster_img").src = objResponse.poster_url;
-    });
-}
-]]></script>
+        var ga = new GlideAjax("MediaUtilsClient");
+        ga.addParam("sysparm_name", "getMediaData");
+        ga.addParam("sysparm_media_sys_id", newValue);
+
+        ga.getXMLAnswer(function(response) {
+            var objResponse = JSON.parse(response);
+            g_form.setValue("avarage_rating", objResponse.avarage_rating);
+            g_form.setValue("synopsis", objResponse.synopsis);
+            top.window.document.getElementById("poster_img").src = objResponse.poster_url;
+        });
+    } else {
+        // Opcional: Adicione um "else" para limpar os campos se o valor for removido
+        g_form.setValue("avarage_rating", "");
+        g_form.setValue("synopsis", "");
+        top.window.document.getElementById("poster_img").src = "";
+    }
+}]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-04 17:35:15</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>96fa7e55c3bf6210c9043eec050131d1</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>MediaUtilsClient</sys_name>
         <sys_overrides/>
         <sys_package display_value="Sharkflix" source="x_1092529_sharkf_0">cee34428c33b2210c9043eec05013129</sys_package>
@@ -49,7 +56,7 @@
         <sys_scope display_value="Sharkflix">cee34428c33b2210c9043eec05013129</sys_scope>
         <sys_update_name>catalog_script_client_96fa7e55c3bf6210c9043eec050131d1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-04 18:03:53</sys_updated_on>
+        <sys_updated_on>2025-09-04 21:28:00</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>

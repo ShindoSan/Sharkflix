@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=6869000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>calculate_media_avarage_rating</internal_name>
+        <label_cache>[{"name":"04970db3-f031-4e3a-94ab-b8328231b7be.Records","label":"2 - Look Up Records➛Review Records","reference":"x_1092529_sharkf_0_review","reference_display":"Review","type":"records","base_type":"records","usedInstances":{"86870ab4-34de-4fa1-b08f-12825ce10277":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.media","label":"Input➛Media","reference":"x_1092529_sharkf_0_media","reference_display":"Media","type":"reference","base_type":"reference","column_name":"","usedInstances":{"d1a57007-b6dd-405a-a39d-3b4b7b7524dd":["record"]},"attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"9a1d2956-86d7-475e-9666-16b12dab1f61","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.media.sys_id","label":"Input➛Media➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1092529_sharkf_0_media","column_name":"sys_id","usedInstances":{"04970db3-f031-4e3a-94ab-b8328231b7be":["conditions"]}}]</label_cache>
+        <master_snapshot>21b267e5c3332210c9043eec050131d6</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Calculate media Avarage rating</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-05 14:50:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d7ded761c3332210c9043eec0501315a</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Calculate media Avarage rating</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sharkflix" source="x_1092529_sharkf_0">cee34428c33b2210c9043eec05013129</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sharkflix">cee34428c33b2210c9043eec05013129</sys_scope>
+        <sys_update_name>sys_hub_flow_d7ded761c3332210c9043eec0501315a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-05 16:44:33</sys_updated_on>
+        <type>subflow</type>
+        <version>2</version>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=d7ded761c3332210c9043eec0501315a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=d7ded761c3332210c9043eec0501315a"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=d7ded761c3332210c9043eec0501315a"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=d7ded761c3332210c9043eec0501315a^sys_idNOT INd7ded761c3332210c9043eec0501315c"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>d7ded761c3332210c9043eec0501315a</id>
+        <name>Calculate media Avarage rating</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-05 14:50:03</sys_created_on>
+        <sys_id>d7ded761c3332210c9043eec0501315c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-05 14:50:03</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=d7ded761c3332210c9043eec0501315c"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=d7ded761c3332210c9043eec0501315a^sys_idNOT INef4f13a1c3332210c9043eec0501314d"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=9a1d2956-86d7-475e-9666-16b12dab1f61</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_1092529_sharkf_0_media</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>media</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Media</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Calculate media Avarage rating">d7ded761c3332210c9043eec0501315a</model>
+        <model_id>d7ded761c3332210c9043eec0501315a</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_d7ded761c3332210c9043eec0501315a</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_1092529_sharkf_0_media">x_1092529_sharkf_0_media</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-05 14:51:58</sys_created_on>
+        <sys_id>ef4f13a1c3332210c9043eec0501314d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sharkflix">cee34428c33b2210c9043eec05013129</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-05 14:51:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ef4f13a1c3332210c9043eec0501314d"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=d7ded761c3332210c9043eec0501315a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d7ded761c3332210c9043eec0501315a"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=d7ded761c3332210c9043eec0501315a"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=d7ded761c3332210c9043eec0501315a^sys_idNOT IN566223e5c3332210c9043eec05013123,5a6223e5c3332210c9043eec05013125"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Calculate media Avarage rating">d7ded761c3332210c9043eec0501315a</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-05 15:05:32</sys_created_on>
+        <sys_id>566223e5c3332210c9043eec05013123</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Sharkflix">cee34428c33b2210c9043eec05013129</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-05 16:46:33</sys_updated_on>
+        <ui_id>04970db3-f031-4e3a-94ab-b8328231b7be</ui_id>
+        <values>H4sIAAAAAAAA/+VX22rjMBD9leDnEOw4SS9vS0thoRdoS1+6u2JsyYmoYnslOZeG/PuOLNkxidtNlhRa9lEzo9GZmXNk+Xnlceqde6fJwPchGJ6e+H4Y+v5oFMYQRFE4iiM/GkRe10thyjBSQyQYLmcgCrNekMA/6w/7Z0RNQL4kxCeSzTibYwzlKhewfHKh95U9nnBBJUu98+efXS8Hiak1k975asu1LzYBERMY+ujAbWHVy7xektJnbdfNbZ1b68gkNVD8rscWmqWUIYYEhGJdbwopBZ3JZW2RDOhdKjaGCU81ZvRM8ELxVzz31DdxCcOqYmZ99ZK4FllzcgkaHrQsYl1IFxpPMh4zZftBWQKF0BdNmw24yzXPUrvFlm13Z6KYpre2HV6doJoIWgqFIFhuCjXIXRnJwySb31cor3ha9sQ5RRaDqFegteRRoQ2elccEm2IiMoU85+mY5DKb8XIzYpn2xgIXvURkczxU8XHag9gA72FfoXeF9svS/ASSmypuMA1uRkBcIEOIHaHKClm2ckZiUajSISFVNpe37npqqS4EKLWpHFtOfhcGt+2Dq5jYppktseS5/oYpZswVt+7uJY+hv6FcnKWUGxSqoZEpoxx6iIlw+qPAFHS1UkVk2tBr+tbrX0qDZjYm3FXQvyc6puTKeivJXTQLbmuCE9+O7botgRNfcDTxYR1fSX54+OdT3+F6si34i6jik3dJNtzwSWVSE9vLhqp25XEwz/eAUPH8zjCzEy3fQuVonnAmaNs35so4tr4x/f/zG/MpSY6AKLHT46ngaflgQKAfxX7//Sv2bItnJb023C9toOJdDUBHZ53Xg5WwB5xKCQ94dufR4mmBWN33JWW27/rK6AQQHk0AYf84AljVZdaNbOl59UY006ziX008bMcjBRsbgnWbwA46Mzj0zP56V8DhQQpuks16Lt/g3JEfk28osvuRV8AEt7rziNUvmXM6ZnpzehVFMz0H8dLmd4wj1aDK8j7gYTp4V7ajYCNRVAr+mCkcXvNlGuDzaPcOCbrWfNgVsgeWqh03sOjc12BaEbprBJXOxuVsmvfI99rqSD444oPx035Jq2G1arCa2Zf4nzueEH7+AUFk7OfCEAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Calculate media Avarage rating">d7ded761c3332210c9043eec0501315a</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>86870ab4-34de-4fa1-b08f-12825ce10277</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-05 15:05:32</sys_created_on>
+        <sys_id>5a6223e5c3332210c9043eec05013125</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Sharkflix">cee34428c33b2210c9043eec05013129</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-09-05 16:46:33</sys_updated_on>
+        <ui_id>d1a57007-b6dd-405a-a39d-3b4b7b7524dd</ui_id>
+        <values>H4sIAAAAAAAA/+VWW0/bMBj9K1GeNqnLkhQQLU8TVaVJXCSYeAFkOfGX1sJxMl9Kuyr/fV9iJ3SAuEi8oPXN383nfD6n7fU25CychnvA4mSSHOTjZDxO4zg93Euyg3GWpGxMAZJwFEpaAlYqyCvF8LyiwraB7VbbrBDVfVQC47RpMMe4rgXdXPkSjORLLpgCGU6vb0dhTRVOM6DC6fZR6q1wBM1AYOlFj+cxPrOp2zOrcluCNIT3wRPfOfOZ4OcMM9jUwkniUQhrA5IBAimo0DAKSyoZNZXahFOjLAYUUHYuxWaoWHJpHNGSrjX/gzfvxW1dAcgs90sYjsQvyIWLGTX0EifnxqphXxXPQbudMCioFeZ4N+YKzmvDK+laDM1E310JW8ozt5FwGLDzHlYjCKhbni1yR6u4XFb3Fz3IOZfdSjxFUeVUDCdqjOKZNS2cbQgCuh2XtK65XJBaVSveNSOUMloIPEStRvBOzRcyonmLO8Kt0miO8VkXvqKKtyROcQw2N6NQb/SxoFo/UMEdkt+2ReKIeQqk20K3AtIpoW3OFa/ND7xqBR54M/KCz/ZfUlg+eRDUzswH0a9JEk/S/XRC9JKqu4LEpFP/U+2f+vD7DPAGeL0BfnXP/jxc74EnsZPd3uDMJbwD9j/MAYefyQGexqe3wGvCj9MXv1p3lNRpXe+Inq5QtQsgihpkeGPjeMwK9s3dBuyp9l9veJ8r3oC9d8Wcg2D6GTK9JaBEpAaII/fIFj4ZXPnk8OPwYd5IDuLu84kc8h/8RjiKLtZi/lfAbeSlehSZChRo3GLgxB4UjHT4O16Yjtwkom0ZfB+yJCVEVNUdsTVx/190lFdWmqMbqQAfXPqxkanmfA3sS/r1CJlpugI2PFjTNLd/AWBR62rQCQAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=d7ded761c3332210c9043eec0501315a"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=d7ded761c3332210c9043eec0501315a^sys_idNOT IN926223e5c3332210c9043eec05013122,b937b321c3b32210c9043eec050131c5,de6223e5c3332210c9043eec05013123"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">de6223e5c3332210c9043eec05013121</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Calculate media Avarage rating">d7ded761c3332210c9043eec0501315a</flow>
+        <flow_variables_assigned>rating_sum</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-05 15:05:32</sys_created_on>
+        <sys_id>926223e5c3332210c9043eec05013122</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Sharkflix">cee34428c33b2210c9043eec05013129</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-05 16:44:32</sys_updated_on>
+        <ui_id>1405f47d-8ac4-4d8b-b914-33ad771db90d</ui_id>
+        <values>H4sIAAAAAAAA/+1UXWvjMBD8K4eek2DHTq7OW6EUAtcrtGlfjmLW0joRJ0uuPpLmQv77rWwnLe3dDyj0zZpd7cyOBh+YCb4N3q3MpXNyrdni19OISR0x+j4wDQ2yBbPgpV6XLjRsxLagQgQT+hbStQr2j28gvpFKWBxmtWBphEfLFod3Jb9vsVRQoaKbS+1xTV3ELuhY5el0XsGMZ1k2naYJL5I8Q+TJLEmzNK2p73TzrtP27f7hhsB/6Y08hMkzg7Ei6klGDF88aoHEWINyOGINaAHe2P0ZsQjiVqtXYEODaByLzS9O/qHZeRL7aqTVOPa187EcLOphvjGS423rpdE94qFSwx1uVGj0z36FaC7WEJQ/mUtIcDQP26g5ihgU1fcbs7s7EV5L3a03FJXhoM4n8N7KKnh08T2CXL33pod+fHgVVNgQZ9lA20ZrW2u2suMh2c1kregwqZXZkb6YpAnwuOOE3ITJNeFXHfwIVsaFb2jMwPeg5XPAZXz1Qszy75AV4yTP03FeYDGukmk2nlWiuJjPxexCADt25pbPIa7V2zQYUvaeUoPjVrb+kiRscdj9+BST27P32e6C9p/MfGX8K+OfM+MCuXSkahUlLE9/8ljYU3AkfwvtjP0d93nFjn8BM3cUTxMGAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">b137b321c3b32210c9043eec050131c5</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Calculate media Avarage rating">d7ded761c3332210c9043eec0501315a</flow>
+        <flow_variables_assigned>rating_sum</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id>86870ab4-34de-4fa1-b08f-12825ce10277</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-05 16:36:26</sys_created_on>
+        <sys_id>b937b321c3b32210c9043eec050131c5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Sharkflix">cee34428c33b2210c9043eec05013129</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-05 16:44:32</sys_updated_on>
+        <ui_id>c7a7910d-739d-4128-8859-bc7984f9899f</ui_id>
+        <values>H4sIAAAAAAAA/+1WyW7bMBD9FYKnLLYiW3YaOycDbdAATQNku9SBQFEjmy1FKlycuIH/vUMtdpAu1158svg4nHnvcTjwK9XeVd7ZOz2zViwUnX577FGhAobfr1SxEuiUGuaEWqTWl7RHV0z6AOJnLmwl2fphh/ClkLmBNlPFDCZwYOj09d2WW1eQSpaBxIOXysECo7B2jstsNBieZmzMkyQZDgcxn8SjBIDH43iQDAYFxnUnb2pm5Pb+CsE/sQ11EBPbCtrkgU/co/DiQOWAFQsmLfRoyVTOnDbrLWKA5ddK7oAlJmqUluzFip+YexSHuAJQGm9d2C7T1qHOHC04XFdOaNUgjmWyc05LX6qvjYTgLRTMS/fGW28xH1SBcyDRMipul/r5pit4IVQtr92UmjO5XTHnjMi8Axvuw4u799400JffbgUklFgzLVlVBWsro1eiroO0y2ghcREVUj8jv9BHEeNBY4RusugC8Y81/MCMCIKvME1b716JJw+X4dYn+Xj0gSWTfjwaDfqjCUz6WTxM+uMsn5ydnubjs5zRTW1u+uSDrMam1pC08RQDLDeicjOksEJ5znjosCD7TXfg6l+x9ORoro6OZpyDtSTIOJnVukjQRbwNneeWQIo8rRGdfQfuInJbJyClt44YcN4owkj9bCISMl6HFiTKlxn+CEt0UVhwJFuT4wERinwyRhvyGbtR1s0NjZs1mRUTMnhIdN1GlrQdRnyFxCqDVMOZOY3mlLAC315HLxyHF1ZWEqbIxhC71MbhzXAy93Gc5F1ghF2ywIuPuDfYVC6qA8PV1rqw6nnI1SrbZgngyVzNVbvRZav7AutFO+fJMcHRYAE77KALS5M0LbRJgfFlJByUbXzk9C0SUouDw8NzutlsHsMIahqpGVL1zPjL898Pq/2w2g+r/bD6j8MqBy4s8rgLTlx2/63CxhpngOBvoWdtfgQKO2zzC4ylqsSlCQAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">1e6223e5c3332210c9043eec05013123</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Calculate media Avarage rating">d7ded761c3332210c9043eec0501315a</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-05 15:05:32</sys_created_on>
+        <sys_id>de6223e5c3332210c9043eec05013123</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Sharkflix">cee34428c33b2210c9043eec05013129</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-05 16:44:32</sys_updated_on>
+        <ui_id>86870ab4-34de-4fa1-b08f-12825ce10277</ui_id>
+        <values>H4sIAAAAAAAA/51STW/bMAz9Lzonhj+CNM6twFCgh7VAV/QyFAYl0YkwWVIlOaln+L+Pip1s6HEnm4/k43siR2b76PoYXu19COpg2P7n+4opkzD6H5mBDtmeqYhdYCt2At2neBzzTX2XS16t27wq1husYF1vgK/5rip3ZVXwO47ZCwrrZZgmapUqOA3D2/8ziKPS0uMi0oEnbRE9249fUnFw2GjgqGnQwkD9SlJY1LKti7wWVbmtyjwvd5uCbytelLIClFuqu3Y+Lqa/vEFip9DfeOmTVJT5iuFnRCORBrWgA65YB0ZCtH5g++h7AjyCfDZ6uFUclYlEx1LtZ1C/ibvI81TYIjkSOCdvYbM85AyLo1UCn11U1sxIBK6XHmF135mnWX5aAbbQ63hdASF9ID50SXNSsUhqfxzt+eU68EGZi78lqa0AfYsgRq94HzGkNaDGjoiaDpxT5tA4b0/q0kxauuygKchabc80NJ1bBiIJz+iJIHsg/NsFfgOvkovvREPN08V989GnubOPRXEzm6aCILxy8Z7oTriIm97Tvc5MYT4MiUIFGviasMfrlafEQEtW4l/obP2vJPUvNv0B69JXES8DAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=d7ded761c3332210c9043eec0501315a"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=d7ded761c3332210c9043eec0501315a^sys_idNOT INb4126ba5c3332210c9043eec0501311f"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=9d547a39-0441-49e9-b023-5bd9866d58da</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>rating_sum</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Rating SUM</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Calculate media Avarage rating">d7ded761c3332210c9043eec0501315a</model>
+        <model_id>d7ded761c3332210c9043eec0501315a</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_d7ded761c3332210c9043eec0501315a</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-05 15:04:05</sys_created_on>
+        <sys_id>b4126ba5c3332210c9043eec0501311f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sharkflix">cee34428c33b2210c9043eec05013129</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-05 15:04:05</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_d7ded761c3332210c9043eec0501315a^sys_idNOT IN234f17e1c3332210c9043eec050131a6"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>media</element>
+        <help/>
+        <hint/>
+        <label>Media</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_d7ded761c3332210c9043eec0501315a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-05 14:51:58</sys_created_on>
+        <sys_id>234f17e1c3332210c9043eec050131a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sharkflix" source="x_1092529_sharkf_0">cee34428c33b2210c9043eec05013129</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sharkflix">cee34428c33b2210c9043eec05013129</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-05 14:51:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_d7ded761c3332210c9043eec0501315a"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_d7ded761c3332210c9043eec0501315a"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_d7ded761c3332210c9043eec0501315a"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>calculate_media_avarage_rating</internal_name>
+        <label_cache>[{"name":"04970db3-f031-4e3a-94ab-b8328231b7be.Records","label":"2 - Look Up Records➛Review Records","reference":"x_1092529_sharkf_0_review","reference_display":"Review","type":"records","base_type":"records","usedInstances":{"86870ab4-34de-4fa1-b08f-12825ce10277":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"subflow.media","label":"Input➛Media","reference":"x_1092529_sharkf_0_media","reference_display":"Media","type":"reference","base_type":"reference","column_name":"","usedInstances":{"d1a57007-b6dd-405a-a39d-3b4b7b7524dd":["record"]},"attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"9a1d2956-86d7-475e-9666-16b12dab1f61","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"subflow.media.sys_id","label":"Input➛Media➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"x_1092529_sharkf_0_media","column_name":"sys_id","usedInstances":{"04970db3-f031-4e3a-94ab-b8328231b7be":["conditions"]}}]</label_cache>
+        <master>true</master>
+        <name>Calculate media Avarage rating</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Calculate media Avarage rating">d7ded761c3332210c9043eec0501315a</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-05 15:06:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>21b267e5c3332210c9043eec050131d6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sharkflix">cee34428c33b2210c9043eec05013129</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-05 16:44:33</sys_updated_on>
+        <type>subflow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=21b267e5c3332210c9043eec050131d6"/>
+    <sys_variable_value action="delete_multiple" query="document_key=21b267e5c3332210c9043eec050131d6"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=21b267e5c3332210c9043eec050131d6"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=21b267e5c3332210c9043eec050131d6^sys_idNOT INa5b267e5c3332210c9043eec050131d6"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>21b267e5c3332210c9043eec050131d6</id>
+        <name>Calculate media Avarage rating</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-05 15:06:52</sys_created_on>
+        <sys_id>a5b267e5c3332210c9043eec050131d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-05 15:06:52</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=a5b267e5c3332210c9043eec050131d6"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=21b267e5c3332210c9043eec050131d6^sys_idNOT IN39b267e5c3332210c9043eec050131d7"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=9a1d2956-86d7-475e-9666-16b12dab1f61</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_1092529_sharkf_0_media</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>media</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Media</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Calculate media Avarage rating">21b267e5c3332210c9043eec050131d6</model>
+        <model_id>21b267e5c3332210c9043eec050131d6</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_21b267e5c3332210c9043eec050131d6</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_1092529_sharkf_0_media">x_1092529_sharkf_0_media</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-05 15:06:52</sys_created_on>
+        <sys_id>39b267e5c3332210c9043eec050131d7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sharkflix">cee34428c33b2210c9043eec05013129</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-05 15:06:52</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=39b267e5c3332210c9043eec050131d7"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=21b267e5c3332210c9043eec050131d6"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=21b267e5c3332210c9043eec050131d6"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=21b267e5c3332210c9043eec050131d6"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=21b267e5c3332210c9043eec050131d6^sys_idNOT IN79b267e5c3332210c9043eec050131f5,fdb2a7e5c3332210c9043eec05013102"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Calculate media Avarage rating">21b267e5c3332210c9043eec050131d6</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-05 15:06:52</sys_created_on>
+        <sys_id>79b267e5c3332210c9043eec050131f5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Sharkflix">cee34428c33b2210c9043eec05013129</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-05 15:06:52</sys_updated_on>
+        <ui_id>04970db3-f031-4e3a-94ab-b8328231b7be</ui_id>
+        <values>H4sIAAAAAAAA/+VX22rjMBD9leDnEOw4SS9vS0thoRdoS1+6u2JsyYmoYnslOZeG/PuOLNkxidtNlhRa9lEzo9GZmXNk+Xnlceqde6fJwPchGJ6e+H4Y+v5oFMYQRFE4iiM/GkRe10thyjBSQyQYLmcgCrNekMA/6w/7Z0RNQL4kxCeSzTibYwzlKhewfHKh95U9nnBBJUu98+efXS8Hiak1k975asu1LzYBERMY+ujAbWHVy7xektJnbdfNbZ1b68gkNVD8rscWmqWUIYYEhGJdbwopBZ3JZW2RDOhdKjaGCU81ZvRM8ELxVzz31DdxCcOqYmZ99ZK4FllzcgkaHrQsYl1IFxpPMh4zZftBWQKF0BdNmw24yzXPUrvFlm13Z6KYpre2HV6doJoIWgqFIFhuCjXIXRnJwySb31cor3ha9sQ5RRaDqFegteRRoQ2elccEm2IiMoU85+mY5DKb8XIzYpn2xgIXvURkczxU8XHag9gA72FfoXeF9svS/ASSmypuMA1uRkBcIEOIHaHKClm2ckZiUajSISFVNpe37npqqS4EKLWpHFtOfhcGt+2Dq5jYppktseS5/oYpZswVt+7uJY+hv6FcnKWUGxSqoZEpoxx6iIlw+qPAFHS1UkVk2tBr+tbrX0qDZjYm3FXQvyc6puTKeivJXTQLbmuCE9+O7botgRNfcDTxYR1fSX54+OdT3+F6si34i6jik3dJNtzwSWVSE9vLhqp25XEwz/eAUPH8zjCzEy3fQuVonnAmaNs35so4tr4x/f/zG/MpSY6AKLHT46ngaflgQKAfxX7//Sv2bItnJb023C9toOJdDUBHZ53Xg5WwB5xKCQ94dufR4mmBWN33JWW27/rK6AQQHk0AYf84AljVZdaNbOl59UY006ziX008bMcjBRsbgnWbwA46Mzj0zP56V8DhQQpuks16Lt/g3JEfk28osvuRV8AEt7rziNUvmXM6ZnpzehVFMz0H8dLmd4wj1aDK8j7gYTp4V7ajYCNRVAr+mCkcXvNlGuDzaPcOCXrWfNgVsgeWqh03sOjc12BaEbprBJXOxuVsmvfI99rqSD444oPx035Jq2G1arCa2Zf4nzueEH7+AWKB9ivCEAAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Calculate media Avarage rating">21b267e5c3332210c9043eec050131d6</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>86870ab4-34de-4fa1-b08f-12825ce10277</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-05 15:06:52</sys_created_on>
+        <sys_id>fdb2a7e5c3332210c9043eec05013102</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Sharkflix">cee34428c33b2210c9043eec05013129</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-05 15:06:52</sys_updated_on>
+        <ui_id>d1a57007-b6dd-405a-a39d-3b4b7b7524dd</ui_id>
+        <values>H4sIAAAAAAAA/+VWW0/bMBj9K1GeNqnLkhQQLU8TVaVJXCSYeAFkOfGX1sJxMl9Kuyr/fV9iJ3SAuEi8oPXN383nfD6n7fU25CychnvA4mSSHOTjZDxO4zg93Euyg3GWpGxMAZJwFEpaAlYqyCvF8LyiwraB7VbbrBDVfVQC47RpMMe4rgXdXPkSjORLLpgCGU6vb0dhTRVOM6DC6fZR6q1wBM1AYOlFj+cxPrOp2zOrcluCNIT3wRPfOfOZ4OcMM9jUwkniUQhrA5IBAimo0DAKSyoZNZXahFOjLAYUUHYuxWaoWHJpHNGSrjX/gzfvxW1dAcgs90sYjsQvyIWLGTX0EifnxqphXxXPQbudMCioFeZ4N+YKzmvDK+laDM1E310JW8ozt5FwGLDzHlYjCKhbni1yR6u4XFb3Fz3IOZfdSjxFUeVUDCdqjOKZNS2cbQgCuh2XtK65XJBaVSveNSOUMloIPEStRvBOzRcyonmLO8Kt0miO8VkXvqKKtyROcQw2N6NQb/SxoFo/UMEdkt+2ReKIeQqk20K3AtIpoW3OFa/ND7xqBR54M/KCz/ZfUlg+eRDUzswH0a9JEk/S/XRC9JKqu4LEpFP/U+2f+vD7DPAGeL0BfnXP/jxc74EnsZPd3uDMJbwD9j/MAYefyQGexqe3wGvCj9MXv1p3lNRpXe+Inq5QtQsgihpkeGPjeMwK9s3dBuyp9l9veJ8r3oC9d8Wcg2D6GTK9JaBEpAaII/fIFj4ZXPnk8OPwYd5IDuLu84kc8h/8RjiKLtZi/lfAbeSlehSZChRo3GLgxB4UjHT4O16Yjtwkom0ZfB+yJCVEVNUdsTVx/190lFdWmqMbqQAfXPqxkanmfA3sS/r1CJlpugI2PFjTNLd/AWBR62rQCQAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=21b267e5c3332210c9043eec050131d6"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=21b267e5c3332210c9043eec050131d6^sys_idNOT IN601933e1c3b32210c9043eec05013130,7db267e5c3332210c9043eec050131f3,fdb267e5c3332210c9043eec050131f2"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">b137b321c3b32210c9043eec050131c5</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Calculate media Avarage rating">21b267e5c3332210c9043eec050131d6</flow>
+        <flow_variables_assigned>rating_sum</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id>86870ab4-34de-4fa1-b08f-12825ce10277</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-05 16:44:33</sys_created_on>
+        <sys_id>601933e1c3b32210c9043eec05013130</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Sharkflix">cee34428c33b2210c9043eec05013129</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-05 16:44:33</sys_updated_on>
+        <ui_id>c7a7910d-739d-4128-8859-bc7984f9899f</ui_id>
+        <values>H4sIAAAAAAAA/+1W204bMRD9FctPXMKyYRNKwhOCoiKVIhHgpUErr3c2ceu1F18CaZR/73gvSUTV/kB5yvp4LmfOjEdZUe1d5Z190BfWipmi4+/PPSpUwPB7RUVOx5T2qGIl4JdhTqhZan2J2IJJD811Lmwl2fJpi/C5kLmBNmLFDAZwYOh49e6qzpAN+ienGRvyJElOTvoxH8WDBIDHw7if9PsFBpQsA4mm9zUFMnm8/Qstt6wCJpSDGSZsgK+t980G1SYPdOIehTcHKgfkUTBpoUdLpnLmtFluEAMsv1NyC8wxfFNoyd6s+IUZB3GwKwAr460Im2PaCtTAxRVzbOKM586bjV5acLCNJjkUzEt3uYs1BneVE1o1Lo5lsvPW0pfqW6MG3QTY6Ye3SAKqUGhg3pZRTOb69b5jeS1UrUl7KTVncnNizhmReRf4rKgXD+9lbqA/hQYJJeZMS1ZVoUuV0QtR50HaZTSTeIgKqV+RX5jBiPFQY4QtYNE14lc1/MSMCAXfYpg236MSLx5uwgCN8uHgE0tGR/Fg0D8ajGB0lMUnydEwy0dnp6f58CxndN2jdmkvJbN2KxX2KH3xodBGuFaitFE5uHAjKneBpBbogl2DDgtC7Iwenv5lS48Ppurg4IJjSy0JhR1f1JWSUCnxNoy1mwMp8rRGdPYDuIvIpA5ASm8dMYAjowgj9eOLSIh4FyaZKF9m+CMs0UVhwZFsSQ77RCjy2RhtyBccalm/HGj0rcksmJBBVaLrwbKkHVTiKyRWGaQafKY0mlLCCnzBHb3gDm+srCSMkY0hdq6Nw15xMvVxnOSdYYRzM8NRiLg3OGYuqg1Ds+u6MOt5iNVWtokSwOOpmqr2ootWTwrmi7bKk0OCC8YCztxeZ5YmaVpokwLj80g4KFv7yGl8efixt79/Ttfr9XNYZM1ofay8j5X3sfI+Vt5/sPJy4MIij4egxE33fy9cLHHBCL4LvWrzM1DYYuvf7bT70zkKAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">1e6223e5c3332210c9043eec05013123</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Calculate media Avarage rating">21b267e5c3332210c9043eec050131d6</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-05 15:06:52</sys_created_on>
+        <sys_id>7db267e5c3332210c9043eec050131f3</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Sharkflix">cee34428c33b2210c9043eec05013129</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-05 16:44:33</sys_updated_on>
+        <ui_id>86870ab4-34de-4fa1-b08f-12825ce10277</ui_id>
+        <values>H4sIAAAAAAAA/51TXW+jMBD8L34miI8oDXmrWlWqdHeV0qovpwot9pJYZ2zONkk5xH+/dSC06mOfYMe7szODGZjpfNt592JunZMHzXa/3yImdcDofWAaGmQ7Jj02jkXsBKoL9TAk6+ImEVW+qpM8Xa0xh1WxhmpVbfNsm+VpdVNhvEdurHDjSKNCulZB//p9Bn6USlicRbZgSZtHy3bDlyMpaEFaiLpIk4Ln2SbPkiTbrtNqk1dpJnJAsSFCBRUqan2c3X0x6/s2lHaSMAM/5pn9gtIjiMiSiOG7Ry2Q1tegHEasAS3AG9uznbcdARZBPGnVLx1HqT3RsdD77uQ/2pgmSWiskQxxnA6XspxznOD6Hjw8EzX3nZ1b+dFIjm6KQmANnfJ3n7Gp4an10uhpxEOlrtNGdY3+NSXBFoLrZyOkcyQC22A0SJ991M9Hc95fVT5IfQllPlSGg1oq8N7KqvNBz8BQYUNEZQNtK/WhbK05ycswaWnig6IirpU509JwRWPgQXhMuUL8QPj9BX4FK4OLn0RDw2PEXO/uFDj34YVCLP92QcnkbPZQTjGEEW5l629pwQlnueNbuPUT95Ipl44kvATs8fqvhIOebpDkn6GzsX+C+A9s/A/q6f8jdQMAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">de6223e5c3332210c9043eec05013121</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Calculate media Avarage rating">21b267e5c3332210c9043eec050131d6</flow>
+        <flow_variables_assigned>rating_sum</flow_variables_assigned>
+        <generation_source/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-05 15:06:52</sys_created_on>
+        <sys_id>fdb267e5c3332210c9043eec050131f2</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Sharkflix">cee34428c33b2210c9043eec05013129</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-05 16:44:33</sys_updated_on>
+        <ui_id>1405f47d-8ac4-4d8b-b914-33ad771db90d</ui_id>
+        <values>H4sIAAAAAAAA/+2V227iMBCGX2Xla0AJCWzDXdWqEtJ2KxXam1WFJvYErHWc1Acoi3j3HeNwUKvdJ+DO/sae+ee3Le9Y413rnZ03t9bKpWaTX289JnVgNN4xKdiEsR7TUCONDDiplwvra2JrUD7AhMZC2lbB9vUC8ZVUwmCXswVDKRwaNtl9Ch1qlHk6HJcw4lmWDYdpwoskzxB5MkrSLE0rSqigREVLnw8ivs1eHv8hzG3bwKR2uKSCEfzodk9PtDEiyEl6DD8caoGkowJlscdq0AJcY7YnYhDEk1ZnsKL00ZsaPqz8QxXzJKyrkDrjGGOn6aJzKOLqHhzMnPHcedMt5atGcrTRE4EVeOXuLllc8NQ62ei4xUGpjrsb5Wv9M7rBTgmOB0LEWxKBbWg0KO/aqGarZvN8VPkg9cGTLqgaDuo0A+eMLL0LenbMy/lnmyP6ajQqrKnmooa2DafUmmYtD3VIdj1YKpoMKtVsSF+4hQPgoccBHQEMHojfH/ArGBkafqQ0Xb0XLd89TsMFKsQo/w5Z0U/yPO3nBRb9Mhlm/VEpipvxWIxuBLB9j9mtvVNg7dkqOqPFuw+NRuM6ixbR5bCFG9m6WxK1xs6N/Vu4/1HP9aVcX8r1pfzvpQjk0pLOeRA1Pf4uIbClWyn5Jdo05nfo8Mz2fwHG7rt9pwYAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=21b267e5c3332210c9043eec050131d6"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=21b267e5c3332210c9043eec050131d6^sys_idNOT INf9b267e5c3332210c9043eec050131ed"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=integer,uiTypeLabel=Integer,uiUniqueId=9d547a39-0441-49e9-b023-5bd9866d58da</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>rating_sum</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Integer">integer</internal_type>
+        <label>Rating SUM</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Calculate media Avarage rating">21b267e5c3332210c9043eec050131d6</model>
+        <model_id>21b267e5c3332210c9043eec050131d6</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_21b267e5c3332210c9043eec050131d6</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-05 15:06:52</sys_created_on>
+        <sys_id>f9b267e5c3332210c9043eec050131ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Sharkflix">cee34428c33b2210c9043eec05013129</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-05 15:06:52</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_21b267e5c3332210c9043eec050131d6^sys_idNOT INb9b267e5c3332210c9043eec050131e3"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>media</element>
+        <help/>
+        <hint/>
+        <label>Media</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_21b267e5c3332210c9043eec050131d6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-05 15:06:52</sys_created_on>
+        <sys_id>b9b267e5c3332210c9043eec050131e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sharkflix" source="x_1092529_sharkf_0">cee34428c33b2210c9043eec05013129</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sharkflix">cee34428c33b2210c9043eec05013129</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-05 15:06:52</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_21b267e5c3332210c9043eec050131d6"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_21b267e5c3332210c9043eec050131d6"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_21b267e5c3332210c9043eec050131d6"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>d7ded761c3332210c9043eec0501315a</sys_id>
+        <latest_snapshot>21b267e5c3332210c9043eec050131d6</latest_snapshot>
+        <compiler_build>glide-xanadu-07-02-2024__patch9a-06-23-2025_07-23-2025_2226.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=d7ded761c3332210c9043eec0501315a"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=d7ded761c3332210c9043eec0501315a^sys_idNOT IN3db2a7e5c3332210c9043eec0501310f"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"3db2a7e5c3332210c9043eec0501310f","name":"plan","plan_signature":null}}</plan>
+        <plan_id display_value="Calculate media Avarage rating">d7ded761c3332210c9043eec0501315a</plan_id>
+        <snapshot>8a897fe1c3b32210c9043eec050131c4</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-05 15:06:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3db2a7e5c3332210c9043eec0501310f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-05 16:44:33</sys_updated_on>
+    </sys_flow_subflow_plan>
+</record_update>
