@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="73aa37e4c3b32210c9043eec050131c1" label="Media" max_length="40" name="x_1092529_sharkf_0_media" type="collection">
+        <element label="Release Year" max_length="4" name="release_year" type="string"/>
         <element default="0" label="Metascore" max_length="40" name="metascore" type="integer"/>
         <element label="Poster" max_length="1000" name="poster" type="url"/>
         <element label="Production" max_length="250" name="production" type="string"/>
