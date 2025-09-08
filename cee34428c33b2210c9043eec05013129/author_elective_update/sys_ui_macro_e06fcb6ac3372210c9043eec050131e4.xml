@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="DELETE">
+        <active>true</active>
+        <category>general</category>
+        <description/>
+        <media_type/>
+        <name>poster</name>
+        <scoped_name>x_1092529_sharkf_0_ORMATER</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-08 16:21:19</sys_created_on>
+        <sys_id>e06fcb6ac3372210c9043eec050131e4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>poster</sys_name>
+        <sys_package display_value="Sharkflix" source="x_1092529_sharkf_0">cee34428c33b2210c9043eec05013129</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sharkflix">cee34428c33b2210c9043eec05013129</sys_scope>
+        <sys_update_name>sys_ui_macro_e06fcb6ac3372210c9043eec050131e4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-08 16:50:14</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<div style="width: 100%; display: flex; justify-content: center;">
+<img src="" id="poster_image" style="width: 300px;border-radius:16px; background: #e0e0e0; box-shadow:  9px 9px 12px #cccccc, -9px -9px 12px #f4f4f4;" />
+</div>
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sharkflix">cee34428c33b2210c9043eec05013129</application>
+        <file_path/>
+        <instance_id>da069ff1eb68d2d4e483f459bad0cdc9</instance_id>
+        <instance_name>dev288635</instance_name>
+        <name>sys_ui_macro_e06fcb6ac3372210c9043eec050131e4</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_macro"&gt;&lt;sys_ui_macro action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;category&gt;general&lt;/category&gt;&lt;description/&gt;&lt;media_type/&gt;&lt;name&gt;poster&lt;/name&gt;&lt;scoped_name&gt;x_1092529_sharkf_0_ORMATER&lt;/scoped_name&gt;&lt;sys_class_name&gt;sys_ui_macro&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-08 16:21:19&lt;/sys_created_on&gt;&lt;sys_id&gt;e06fcb6ac3372210c9043eec050131e4&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;poster&lt;/sys_name&gt;&lt;sys_package display_value="Sharkflix" source="x_1092529_sharkf_0"&gt;cee34428c33b2210c9043eec05013129&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Sharkflix"&gt;cee34428c33b2210c9043eec05013129&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_macro_e06fcb6ac3372210c9043eec050131e4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-08 16:50:14&lt;/sys_updated_on&gt;&lt;xml&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+&lt;div style="width: 100%; display: flex; justify-content: center;"&gt;
+&lt;img src="" id="poster_image" style="width: 300px;border-radius:16px; background: #e0e0e0; box-shadow:  9px 9px 12px #cccccc, -9px -9px 12px #f4f4f4;" /&gt;
+&lt;/div&gt;
+&lt;/j:jelly&gt;]]&gt;&lt;/xml&gt;&lt;/sys_ui_macro&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>487147214</payload_hash>
+        <record_name>poster</record_name>
+        <reverted_from/>
+        <source>1e0d9720c3332210c9043eec050131d6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-08 16:50:14</sys_created_on>
+        <sys_id>d12753a2c3772210c9043eec05013172</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1992a3c3c4d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-08 16:50:14</sys_updated_on>
+        <type>Macro</type>
+        <update_guid>592753a29d7722101cb751f33498ca71</update_guid>
+        <update_guid_history>592753a29d7722101cb751f33498ca71:487147214,3fd0d7ea21372210e9cff0f19f0bd68f:1340424464,358013eafc372210bb9e049a1659aae9:72442383</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-08 17:05:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_macro">sys_ui_macro</sys_db_object>
+        <sys_id>0abc4fb6321c4a0c81f2367a029f25a4</sys_id>
+        <sys_metadata>e06fcb6ac3372210c9043eec050131e4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>poster</sys_name>
+        <sys_package display_value="Sharkflix" source="x_1092529_sharkf_0">cee34428c33b2210c9043eec05013129</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Sharkflix">cee34428c33b2210c9043eec05013129</sys_scope>
+        <sys_scope_delete display_value="">b6e7871a485b4e588c97b552211b0bc4</sys_scope_delete>
+        <sys_update_name>sys_ui_macro_e06fcb6ac3372210c9043eec050131e4</sys_update_name>
+        <sys_update_version display_value="sys_ui_macro_e06fcb6ac3372210c9043eec050131e4">d12753a2c3772210c9043eec05013172</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-08 17:05:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
