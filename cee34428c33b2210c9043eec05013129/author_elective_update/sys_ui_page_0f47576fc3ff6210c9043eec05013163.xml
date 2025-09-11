@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="DELETE">
+        <category>general</category>
+        <client_script/>
+        <description>UI page para colocar as properties no modulo do formulario</description>
+        <direct>false</direct>
+        <endpoint>x_1092529_sharkf_0_System Properties.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="true" xmlns:j="jelly:core" xmlns:g="glide">
+    <g:evaluate var="jvar_endpoint" expression="gs.getProperty('x_1092529_sharkf_0.integration_endpoint')" />
+    <g:evaluate var="jvar_retry_timeout" expression="gs.getProperty('x_1092529_sharkf_0.integration_retry_timeout')" />
+    <g:evaluate var="jvar_plot" expression="gs.getProperty('x_1092529_sharkf_0.integration_plot')" />
+    <g:evaluate var="jvar_active" expression="gs.getProperty('x_1092529_sharkf_0.integration_active')" />
+    <g:evaluate var="jvar_retry_count" expression="gs.getProperty('x_1092529_sharkf_0.integration_retry_cont')" />
+    <g:evaluate var="jvar_apikey" expression="gs.getProperty('x_1092529_sharkf_0.integration_apikey')" />
+
+    <g:ui_form>
+        <g:ui_panel title="SharkFin Integration Properties">
+            <g:ui_input_field label="Integration Endpoint" name="endpoint" value="${jvar_endpoint}" />
+            <g:ui_input_field label="Retry Timeout (in seconds)" name="retry_timeout" value="${jvar_retry_timeout}" />
+            <g:ui_input_field label="Plot" name="plot" value="${jvar_plot}" />
+            <g:ui_checkbox_field label="Integration Active" name="active" value="${jvar_active}" />
+            <g:ui_input_field label="Retry Count" name="retry_count" value="${jvar_retry_count}" />
+            <g:ui_input_field label="API Key" name="apikey" value="${jvar_apikey}" />
+            
+            <button type="submit" name="save_properties">Save</button>
+        </g:ui_panel>
+    </g:ui_form>
+</j:jelly>]]></html>
+        <name>System Properties</name>
+        <processing_script><![CDATA[// Pega os valores enviados pelo formulário
+var endpoint = request.getParameter('endpoint');
+var retryTimeout = request.getParameter('retry_timeout');
+var plot = request.getParameter('plot');
+var active = request.getParameter('active');
+var retryCount = request.getParameter('retry_count');
+var apikey = request.getParameter('apikey');
+
+// Atualiza as propriedades do sistema com os novos valores
+gs.setProperty('x_1092529_sharkf_0.integration_endpoint', endpoint);
+gs.setProperty('x_1092529_sharkf_0.integration_retry_timeout', retryTimeout);
+gs.setProperty('x_1092529_sharkf_0.integration_plot', plot);
+gs.setProperty('x_1092529_sharkf_0.integration_active', active);
+gs.setProperty('x_1092529_sharkf_0.integration_retry_cont', retryCount);
+gs.setProperty('x_1092529_sharkf_0.integration_apikey', apikey);
+
+// Redireciona de volta para a mesma UI Page para mostrar os valores atualizados
+response.sendRedirect('shark_fin_integration_properties.do');]]></processing_script>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-11 19:30:14</sys_created_on>
+        <sys_id>0f47576fc3ff6210c9043eec05013163</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>System Properties</sys_name>
+        <sys_package display_value="Sharkflix" source="x_1092529_sharkf_0">cee34428c33b2210c9043eec05013129</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sharkflix">cee34428c33b2210c9043eec05013129</sys_scope>
+        <sys_update_name>sys_ui_page_0f47576fc3ff6210c9043eec05013163</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-11 19:58:21</sys_updated_on>
+    </sys_ui_page>
+    <sys_es_latest_script action="DELETE">
+        <id>0f47576fc3ff6210c9043eec05013163</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-11 19:30:13</sys_created_on>
+        <sys_id>4e8897ebc3ff6210c9043eec05013183</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-11 19:30:13</sys_updated_on>
+        <table>sys_ui_page</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sharkflix">cee34428c33b2210c9043eec05013129</application>
+        <file_path/>
+        <instance_id>da069ff1eb68d2d4e483f459bad0cdc9</instance_id>
+        <instance_name>dev288635</instance_name>
+        <name>sys_ui_page_0f47576fc3ff6210c9043eec05013163</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_page"&gt;&lt;sys_ui_page action="INSERT_OR_UPDATE"&gt;&lt;category&gt;general&lt;/category&gt;&lt;client_script/&gt;&lt;description&gt;UI page para colocar as properties no modulo do formulario&lt;/description&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;endpoint&gt;x_1092529_sharkf_0_System Properties.do&lt;/endpoint&gt;&lt;html&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="true" xmlns:j="jelly:core" xmlns:g="glide"&gt;
+    &lt;g:evaluate var="jvar_endpoint" expression="gs.getProperty('x_1092529_sharkf_0.integration_endpoint')" /&gt;
+    &lt;g:evaluate var="jvar_retry_timeout" expression="gs.getProperty('x_1092529_sharkf_0.integration_retry_timeout')" /&gt;
+    &lt;g:evaluate var="jvar_plot" expression="gs.getProperty('x_1092529_sharkf_0.integration_plot')" /&gt;
+    &lt;g:evaluate var="jvar_active" expression="gs.getProperty('x_1092529_sharkf_0.integration_active')" /&gt;
+    &lt;g:evaluate var="jvar_retry_count" expression="gs.getProperty('x_1092529_sharkf_0.integration_retry_cont')" /&gt;
+    &lt;g:evaluate var="jvar_apikey" expression="gs.getProperty('x_1092529_sharkf_0.integration_apikey')" /&gt;
+
+    &lt;g:ui_form&gt;
+        &lt;g:ui_panel title="SharkFin Integration Properties"&gt;
+            &lt;g:ui_input_field label="Integration Endpoint" name="endpoint" value="${jvar_endpoint}" /&gt;
+            &lt;g:ui_input_field label="Retry Timeout (in seconds)" name="retry_timeout" value="${jvar_retry_timeout}" /&gt;
+            &lt;g:ui_input_field label="Plot" name="plot" value="${jvar_plot}" /&gt;
+            &lt;g:ui_checkbox_field label="Integration Active" name="active" value="${jvar_active}" /&gt;
+            &lt;g:ui_input_field label="Retry Count" name="retry_count" value="${jvar_retry_count}" /&gt;
+            &lt;g:ui_input_field label="API Key" name="apikey" value="${jvar_apikey}" /&gt;
+            
+            &lt;button type="submit" name="save_properties"&gt;Save&lt;/button&gt;
+        &lt;/g:ui_panel&gt;
+    &lt;/g:ui_form&gt;
+&lt;/j:jelly&gt;]]&gt;&lt;/html&gt;&lt;name&gt;System Properties&lt;/name&gt;&lt;processing_script&gt;&lt;![CDATA[// Pega os valores enviados pelo formulário
+var endpoint = request.getParameter('endpoint');
+var retryTimeout = request.getParameter('retry_timeout');
+var plot = request.getParameter('plot');
+var active = request.getParameter('active');
+var retryCount = request.getParameter('retry_count');
+var apikey = request.getParameter('apikey');
+
+// Atualiza as propriedades do sistema com os novos valores
+gs.setProperty('x_1092529_sharkf_0.integration_endpoint', endpoint);
+gs.setProperty('x_1092529_sharkf_0.integration_retry_timeout', retryTimeout);
+gs.setProperty('x_1092529_sharkf_0.integration_plot', plot);
+gs.setProperty('x_1092529_sharkf_0.integration_active', active);
+gs.setProperty('x_1092529_sharkf_0.integration_retry_cont', retryCount);
+gs.setProperty('x_1092529_sharkf_0.integration_apikey', apikey);
+
+// Redireciona de volta para a mesma UI Page para mostrar os valores atualizados
+response.sendRedirect('shark_fin_integration_properties.do');]]&gt;&lt;/processing_script&gt;&lt;sys_class_name&gt;sys_ui_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-11 19:30:14&lt;/sys_created_on&gt;&lt;sys_id&gt;0f47576fc3ff6210c9043eec05013163&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;System Properties&lt;/sys_name&gt;&lt;sys_package display_value="Sharkflix" source="x_1092529_sharkf_0"&gt;cee34428c33b2210c9043eec05013129&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Sharkflix"&gt;cee34428c33b2210c9043eec05013129&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_page_0f47576fc3ff6210c9043eec05013163&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-11 19:58:21&lt;/sys_updated_on&gt;&lt;/sys_ui_page&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;0f47576fc3ff6210c9043eec05013163&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-09-11 19:30:13&lt;/sys_created_on&gt;&lt;sys_id&gt;4e8897ebc3ff6210c9043eec05013183&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-09-11 19:30:13&lt;/sys_updated_on&gt;&lt;table&gt;sys_ui_page&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>758078013</payload_hash>
+        <record_name>System Properties</record_name>
+        <reverted_from/>
+        <source>1e0d9720c3332210c9043eec050131d6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-11 19:58:21</sys_created_on>
+        <sys_id>0efedb23c333a210c9043eec0501315a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1993a5b87de0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-11 19:58:21</sys_updated_on>
+        <type>UI Page</type>
+        <update_guid>82fedb23cd33a2102a7b97bd2dd55c5a</update_guid>
+        <update_guid_history>82fedb23cd33a2102a7b97bd2dd55c5a:758078013,70ea17233733a210849e499daf6c7d67:983526555,df2993afc7ff6210689bc582ae72abc4:1938652241,5a88d3af83ff6210d21829e47611617c:649032434</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-11 20:00:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_page">sys_ui_page</sys_db_object>
+        <sys_id>1263d318b736452d82885e59034c5379</sys_id>
+        <sys_metadata>0f47576fc3ff6210c9043eec05013163</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>System Properties</sys_name>
+        <sys_package display_value="Sharkflix" source="x_1092529_sharkf_0">cee34428c33b2210c9043eec05013129</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Sharkflix">cee34428c33b2210c9043eec05013129</sys_scope>
+        <sys_scope_delete display_value="">b6e7871a485b4e588c97b552211b0bc4</sys_scope_delete>
+        <sys_update_name>sys_ui_page_0f47576fc3ff6210c9043eec05013163</sys_update_name>
+        <sys_update_version display_value="sys_ui_page_0f47576fc3ff6210c9043eec05013163">0efedb23c333a210c9043eec0501315a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-11 20:00:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

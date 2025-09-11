@@ -11,14 +11,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-09 13:08:54</sys_created_on>
         <sys_id>0d1e23b6c3732210c9043eec05013156</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>x_1092529_sharkf_0.integration_endpoint</sys_name>
         <sys_package display_value="Sharkflix" source="x_1092529_sharkf_0">cee34428c33b2210c9043eec05013129</sys_package>
         <sys_policy/>
         <sys_scope display_value="Sharkflix">cee34428c33b2210c9043eec05013129</sys_scope>
         <sys_update_name>sys_properties_0d1e23b6c3732210c9043eec05013156</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-09 17:27:50</sys_updated_on>
+        <sys_updated_on>2025-09-11 17:24:04</sys_updated_on>
         <type>string</type>
         <value>https://www.omdbapi.com/</value>
         <write_roles/>
