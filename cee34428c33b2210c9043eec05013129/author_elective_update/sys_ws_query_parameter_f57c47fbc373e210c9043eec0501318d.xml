@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_query_parameter">
+    <sys_ws_query_parameter action="DELETE">
+        <example_value/>
+        <name>Query Movies by Category</name>
+        <required>false</required>
+        <short_description>Codigo aula 12.09 com Lindner</short_description>
+        <sys_class_name>sys_ws_query_parameter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-12 13:18:44</sys_created_on>
+        <sys_id>f57c47fbc373e210c9043eec0501318d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Query Movies by Category</sys_name>
+        <sys_package display_value="Sharkflix" source="x_1092529_sharkf_0">cee34428c33b2210c9043eec05013129</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sharkflix">cee34428c33b2210c9043eec05013129</sys_scope>
+        <sys_update_name>sys_ws_query_parameter_f57c47fbc373e210c9043eec0501318d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-12 13:18:44</sys_updated_on>
+        <web_service_definition display_value="Software X">efebcbbbc373e210c9043eec0501317e</web_service_definition>
+    </sys_ws_query_parameter>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sharkflix">cee34428c33b2210c9043eec05013129</application>
+        <file_path/>
+        <instance_id>da069ff1eb68d2d4e483f459bad0cdc9</instance_id>
+        <instance_name>dev288635</instance_name>
+        <name>sys_ws_query_parameter_f57c47fbc373e210c9043eec0501318d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_query_parameter"><sys_ws_query_parameter action="INSERT_OR_UPDATE"><example_value/><name>Query Movies by Category</name><required>false</required><short_description>Codigo aula 12.09 com Lindner</short_description><sys_class_name>sys_ws_query_parameter</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-12 13:18:44</sys_created_on><sys_id>f57c47fbc373e210c9043eec0501318d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Query Movies by Category</sys_name><sys_package display_value="Sharkflix" source="x_1092529_sharkf_0">cee34428c33b2210c9043eec05013129</sys_package><sys_policy/><sys_scope display_value="Sharkflix">cee34428c33b2210c9043eec05013129</sys_scope><sys_update_name>sys_ws_query_parameter_f57c47fbc373e210c9043eec0501318d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-12 13:18:44</sys_updated_on><web_service_definition display_value="Software X">efebcbbbc373e210c9043eec0501317e</web_service_definition></sys_ws_query_parameter></record_update>]]></payload>
+        <payload_hash>420214124</payload_hash>
+        <record_name>Query Movies by Category</record_name>
+        <reverted_from/>
+        <source>1e0d9720c3332210c9043eec050131d6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-12 13:18:44</sys_created_on>
+        <sys_id>c21d4f7bc373e210c9043eec050131df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1993e1407b70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-12 13:18:44</sys_updated_on>
+        <type>Scripted REST Query Parameter</type>
+        <update_guid>c61d4f7b2e73e2104620ea23dcadb5de</update_guid>
+        <update_guid_history>c61d4f7b2e73e2104620ea23dcadb5de:420214124</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-12 13:19:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_ws_query_parameter">sys_ws_query_parameter</sys_db_object>
+        <sys_id>1ef4ec4ee9014fe8ab4e58ecb3c78604</sys_id>
+        <sys_metadata>f57c47fbc373e210c9043eec0501318d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Query Movies by Category</sys_name>
+        <sys_package display_value="Sharkflix" source="x_1092529_sharkf_0">cee34428c33b2210c9043eec05013129</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Sharkflix">cee34428c33b2210c9043eec05013129</sys_scope>
+        <sys_scope_delete display_value="">b6e7871a485b4e588c97b552211b0bc4</sys_scope_delete>
+        <sys_update_name>sys_ws_query_parameter_f57c47fbc373e210c9043eec0501318d</sys_update_name>
+        <sys_update_version display_value="sys_ws_query_parameter_f57c47fbc373e210c9043eec0501318d">c21d4f7bc373e210c9043eec050131df</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-12 13:19:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
