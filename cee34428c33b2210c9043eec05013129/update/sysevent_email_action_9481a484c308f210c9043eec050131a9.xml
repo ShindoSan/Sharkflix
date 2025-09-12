@@ -6,7 +6,7 @@
         <advanced_condition/>
         <affected_field_on_event/>
         <category display_value="Sharkflix" name="Sharkflix">5820ae22c3732210c9043eec050131e1</category>
-        <collection>x_1092529_sharkf_0_review</collection>
+        <collection>x_1092529_sharkf_0_suggestion</collection>
         <condition/>
         <content_type>text/html</content_type>
         <default_interval/>
@@ -37,14 +37,11 @@
         <mandatory>false</mandatory>
         <message/>
         <message_html><![CDATA[<p>Hello ${opened_by.first_name},</p>
-<p>Thank you for your review for the ${media.type} ${media.title}.</p>
-<p>It is <strong>${state}!</strong></p>
-<p>The Reproval reason is ${reproval_reason}.</p>
-<p><img style="width: 400px;" src="${media.poster}"></p>
-<p>If you want to send more reviews, click<a href="sp?id=sc_cat_item&amp;sys_id=80e72141c3772210c9043eec05013147&amp;sysparm_category=be1e5905c3372210c9043eec050131e1"> here </a></p>]]></message_html>
+<p>Thank you for your Suggestion for the ${media.type} ${media.title}.</p>
+<p>It is <strong>${state}!</strong></p>]]></message_html>
         <message_list/>
         <message_text/>
-        <name>Review Reproved</name>
+        <name>Suggestion Approved</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
@@ -55,23 +52,23 @@
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject>Your review ${number} is ${state}</subject>
+        <subject>Your Suggestion ${number} is ${state}</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-08 13:21:18</sys_created_on>
+        <sys_created_on>2025-09-12 19:34:44</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>6c57666ac3732210c9043eec0501310c</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Review Reproved</sys_name>
+        <sys_id>9481a484c308f210c9043eec050131a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Suggestion Approved</sys_name>
         <sys_overrides/>
         <sys_package display_value="Sharkflix" source="x_1092529_sharkf_0">cee34428c33b2210c9043eec05013129</sys_package>
         <sys_policy/>
         <sys_scope display_value="Sharkflix">cee34428c33b2210c9043eec05013129</sys_scope>
-        <sys_update_name>sysevent_email_action_6c57666ac3732210c9043eec0501310c</sys_update_name>
+        <sys_update_name>sysevent_email_action_9481a484c308f210c9043eec050131a9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-12 19:38:11</sys_updated_on>
+        <sys_updated_on>2025-09-12 19:34:44</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
