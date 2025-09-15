@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">820f898cc3c8f210c9043eec050131cd</sp_column>
+        <sp_widget display_value="Cool Clock">3a36b30b6f3631005be8583e6b3ee490</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-12 22:52:03</sys_created_on>
+        <sys_id>4c5091ccc3c8f210c9043eec05013198</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sharkflix" source="x_1092529_sharkf_0">cee34428c33b2210c9043eec05013129</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sharkflix">cee34428c33b2210c9043eec05013129</sys_scope>
+        <sys_update_name>sp_instance_4c5091ccc3c8f210c9043eec05013198</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-12 22:52:03</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=4c5091ccc3c8f210c9043eec05013198"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sharkflix">cee34428c33b2210c9043eec05013129</application>
+        <file_path/>
+        <instance_id>da069ff1eb68d2d4e483f459bad0cdc9</instance_id>
+        <instance_name>dev288635</instance_name>
+        <name>sp_instance_4c5091ccc3c8f210c9043eec05013198</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>2</order><roles/><short_description/><size>md</size><sp_column display_value="1">820f898cc3c8f210c9043eec050131cd</sp_column><sp_widget display_value="Cool Clock">3a36b30b6f3631005be8583e6b3ee490</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-12 22:52:03</sys_created_on><sys_id>4c5091ccc3c8f210c9043eec05013198</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Sharkflix" source="x_1092529_sharkf_0">cee34428c33b2210c9043eec05013129</sys_package><sys_policy/><sys_scope display_value="Sharkflix">cee34428c33b2210c9043eec05013129</sys_scope><sys_update_name>sp_instance_4c5091ccc3c8f210c9043eec05013198</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-12 22:52:03</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=4c5091ccc3c8f210c9043eec05013198"/></record_update>]]></payload>
+        <payload_hash>1952272635</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>1e0d9720c3332210c9043eec050131d6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-12 22:52:03</sys_created_on>
+        <sys_id>8c5091ccc3c8f210c9043eec0501319a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1994020eacb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-12 22:52:03</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>805091cc77c8f21086b7634cb3650c9a</update_guid>
+        <update_guid_history>805091cc77c8f21086b7634cb3650c9a:1952272635</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">1a50d9ccc3c8f210c9043eec0501312e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-12 22:52:12</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>262ff7df27ba47308fb2b4c095a11c24</sys_id>
+        <sys_metadata>4c5091ccc3c8f210c9043eec05013198</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Sharkflix" source="x_1092529_sharkf_0">cee34428c33b2210c9043eec05013129</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Sharkflix">cee34428c33b2210c9043eec05013129</sys_scope>
+        <sys_scope_delete display_value="">b6e7871a485b4e588c97b552211b0bc4</sys_scope_delete>
+        <sys_update_name>sp_instance_4c5091ccc3c8f210c9043eec05013198</sys_update_name>
+        <sys_update_version display_value="sp_instance_4c5091ccc3c8f210c9043eec05013198">8c5091ccc3c8f210c9043eec0501319a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-12 22:52:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

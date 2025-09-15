@@ -24,8 +24,10 @@
    }
  
    if (!/^(18[0-9]{2}|19[0-9]{2}|20[0-1][0-9]|202[0-5])$/.test(newValue)) {
-    g_form.addErrorMessage("Invalid format for Release Year");
-    g_form.setValue("release_year", "");
+    //g_form.addErrorMessage("Invalid format for Release Year");
+	g_form.setValue("release_year", "");
+	g_form.showFieldMsg('release_year', 'Invalid format for Release Year', 'error', false);
+    
    } else {
     g_form.clearMessages();
    }
@@ -37,7 +39,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0e2c9cccc3c4f210c9043eec05013186</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Year Configuration</sys_name>
         <sys_overrides/>
         <sys_package display_value="Sharkflix" source="x_1092529_sharkf_0">cee34428c33b2210c9043eec05013129</sys_package>
@@ -45,7 +47,7 @@
         <sys_scope display_value="Sharkflix">cee34428c33b2210c9043eec05013129</sys_scope>
         <sys_update_name>catalog_script_client_0e2c9cccc3c4f210c9043eec05013186</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-12 19:12:37</sys_updated_on>
+        <sys_updated_on>2025-09-14 01:21:38</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
