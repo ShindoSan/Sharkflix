@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>release_year</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-15 22:04:29</sys_created_on>
+        <sys_id>b83268cdc3c03a10c9043eec050131d2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>release_year</sys_name>
+        <sys_package display_value="Sharkflix" source="x_1092529_sharkf_0">cee34428c33b2210c9043eec05013129</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sharkflix">cee34428c33b2210c9043eec05013129</sys_scope>
+        <sys_update_name>sys_ui_policy_action_b83268cdc3c03a10c9043eec050131d2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-15 22:04:40</sys_updated_on>
+        <table>x_1092529_sharkf_0_media</table>
+        <ui_policy display_value="Title, Type and Date Mandatory">11d1a401c3043a10c9043eec050131f7</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=b83268cdc3c03a10c9043eec050131d2"/>
+</record_update>
