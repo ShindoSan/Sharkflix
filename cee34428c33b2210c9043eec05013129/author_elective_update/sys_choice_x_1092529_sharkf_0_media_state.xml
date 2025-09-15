@@ -53,5 +53,24 @@
             <sys_updated_on>2025-09-09 12:42:43</sys_updated_on>
             <value>3</value>
         </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Movie Already in Database</label>
+            <language>en</language>
+            <name>x_1092529_sharkf_0_media</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-09-15 19:46:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-09-15 19:51:37</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
     </sys_choice>
 </record_update>
