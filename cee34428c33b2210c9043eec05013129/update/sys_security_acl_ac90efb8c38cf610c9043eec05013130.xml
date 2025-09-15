@@ -6,9 +6,9 @@
         <applies_to/>
         <condition/>
         <decision_type>allow</decision_type>
-        <description>Allow write for records in x_1092529_sharkf_0_actor, for users with role x_1092529_sharkf_0.administrator, and if the ACL script returns true.</description>
+        <description>Allow write for records in x_1092529_sharkf_0_x_1092529_sharkf_m2m_actors_medias, if the ACL script returns true.</description>
         <local_or_existing>Local</local_or_existing>
-        <name>x_1092529_sharkf_0_actor</name>
+        <name>x_1092529_sharkf_0_x_1092529_sharkf_m2m_actors_medias</name>
         <operation display_value="write">write</operation>
         <script><![CDATA[answer = false;
 
@@ -16,26 +16,26 @@
         <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-02 14:04:09</sys_created_on>
-        <sys_id>399737e0c3b32210c9043eec05013103</sys_id>
+        <sys_created_on>2025-09-15 17:18:10</sys_created_on>
+        <sys_id>ac90efb8c38cf610c9043eec05013130</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>x_1092529_sharkf_0_actor</sys_name>
+        <sys_name>x_1092529_sharkf_0_x_1092529_sharkf_m2m_actors_medias</sys_name>
         <sys_package display_value="Sharkflix" source="x_1092529_sharkf_0">cee34428c33b2210c9043eec05013129</sys_package>
         <sys_policy/>
         <sys_scope display_value="Sharkflix">cee34428c33b2210c9043eec05013129</sys_scope>
-        <sys_update_name>sys_security_acl_399737e0c3b32210c9043eec05013103</sys_update_name>
+        <sys_update_name>sys_security_acl_ac90efb8c38cf610c9043eec05013130</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-15 17:16:33</sys_updated_on>
+        <sys_updated_on>2025-09-15 17:20:22</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
-        <id>399737e0c3b32210c9043eec05013103</id>
+        <id>ac90efb8c38cf610c9043eec05013130</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-09-15 17:16:32</sys_created_on>
-        <sys_id>fa40a7b8c38cf610c9043eec05013161</sys_id>
+        <sys_created_on>2025-09-15 17:18:07</sys_created_on>
+        <sys_id>35a0abb8c38cf610c9043eec05013102</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-15 17:16:32</sys_updated_on>
+        <sys_updated_on>2025-09-15 17:18:07</sys_updated_on>
         <table>sys_security_acl</table>
         <use_es_latest>true</use_es_latest>
     </sys_es_latest_script>

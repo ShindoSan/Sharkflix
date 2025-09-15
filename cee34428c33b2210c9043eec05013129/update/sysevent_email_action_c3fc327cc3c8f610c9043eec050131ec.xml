@@ -36,7 +36,8 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html/>
+        <message_html><![CDATA[<p>Hello ${caller_id},</p>
+<p>There was an integration attempt that failed and generated an incident: ${URI_REF} pririty: ${priority}.</p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Integration Failure for Sharkflix Adm</name>
@@ -50,7 +51,7 @@
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject/>
+        <subject>OMDB Integration Failed </subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -58,7 +59,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c3fc327cc3c8f610c9043eec050131ec</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Integration Failure for Sharkflix Adm</sys_name>
         <sys_overrides/>
         <sys_package display_value="Sharkflix" source="x_1092529_sharkf_0">cee34428c33b2210c9043eec05013129</sys_package>
@@ -66,7 +67,7 @@
         <sys_scope display_value="Sharkflix">cee34428c33b2210c9043eec05013129</sys_scope>
         <sys_update_name>sysevent_email_action_c3fc327cc3c8f610c9043eec050131ec</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-15 14:59:51</sys_updated_on>
+        <sys_updated_on>2025-09-15 16:30:19</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
