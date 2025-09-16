@@ -1,54 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
     <sys_script_include action="INSERT_OR_UPDATE">
-        <access>package_private</access>
+        <access>public</access>
         <active>true</active>
         <api_name>x_1092529_sharkf_0.MediaReviewFilterUtil</api_name>
         <caller_access/>
-        <client_callable>true</client_callable>
+        <client_callable>false</client_callable>
         <description/>
         <mobile_callable>false</mobile_callable>
         <name>MediaReviewFilterUtil</name>
         <sandbox_callable>false</sandbox_callable>
         <script><![CDATA[var MediaReviewFilterUtil = Class.create();
-MediaReviewFilterUtil.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
-
-    getUnreviewedMedia: function() {
-        var reviewedMediaIds = [];
-
-        var reviewGr = new GlideRecord('x_1092529_sharkf_0_review');
-        reviewGr.addQuery('media', '!=', '');
-        reviewGr.query();
-
-        while (reviewGr.next()) {
-            var mediaId = reviewGr.getValue('media');
-
-            if (mediaId) {
-                reviewedMediaIds.push(mediaId.toString());
-            }
+MediaReviewFilterUtil.prototype = {
+    initialize: function() {},
+    refQualMedias: function() {
+        var moviesToBeShown = [];
+        var grMedias  = new GlideRecord("x_1092529_sharkf_0_media");
+        grMedias.addQuery("state", "3");
+        grMedias.query();
+ 
+        while(grMedias.next()){
+            var grReview = new GlideRecord("x_1092529_sharkf_0_review");
+            // grReview.addQuery("opened_by", "me");
+            // grReview.addQuery("state", "3");
             
+            grReview.addQuery("opened_by", gs.getUserID());
+            grReview.addQuery("media", grMedias.sys_id);
+            grReview.addQuery("state", "!=", "4");
+            grReview.query();
+            if(!grReview.next()){
+                moviesToBeShown.push(grMedias.getUniqueValue());
+            }
         }
-
-        if (reviewedMediaIds.length > 0) {
-            return 'sys_idNOT IN' + reviewedMediaIds.join(',');
-        }
-
-        return '';
+        return moviesToBeShown;
     },
-
+ 
     type: 'MediaReviewFilterUtil'
-});]]></script>
+};]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-09-16 16:49:39</sys_created_on>
         <sys_id>3e2a54d5c3847a10c9043eec050131f4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>MediaReviewFilterUtil</sys_name>
         <sys_package display_value="Sharkflix" source="x_1092529_sharkf_0">cee34428c33b2210c9043eec05013129</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Sharkflix">cee34428c33b2210c9043eec05013129</sys_scope>
         <sys_update_name>sys_script_include_3e2a54d5c3847a10c9043eec050131f4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-09-16 16:49:39</sys_updated_on>
+        <sys_updated_on>2025-09-16 20:34:58</sys_updated_on>
     </sys_script_include>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
         <id>3e2a54d5c3847a10c9043eec050131f4</id>
