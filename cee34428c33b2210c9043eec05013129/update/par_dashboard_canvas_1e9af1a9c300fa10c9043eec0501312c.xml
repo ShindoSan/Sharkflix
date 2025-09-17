@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_canvas">
+    <par_dashboard_canvas action="INSERT_OR_UPDATE">
+        <dashboard display_value="Review">129a7129c300fa10c9043eec050131b0</dashboard>
+        <dashboard_tab/>
+        <layout>[{"sys_id":"8a580269c340fa10c9043eec05013179","x":11,"y":0,"w":20,"h":3,"component_id":"1f6e0643eca7a637e36bd7833549ec9e","component_props":"{\"variant\":\"header-hero\",\"label\":\"Turma 2 - SharkEvolution \",\"wontWrap\":false,\"hasNoMargin\":false,\"level\":\"1\",\"id\":\"variant\",\"value\":\"header-hero\",\"noDebounce\":true,\"propLabel\":\"Style\"}","can_edit":true},{"sys_id":"cd19c6e9c340fa10c9043eec05013167","x":2,"y":0,"w":7,"h":5,"component_id":"15fe506403f8a98575b6df59008ea8f1","component_props":"{\"src\":\"upload_imagem.png\",\"sources\":\"[]\",\"fit\":\"scale-down\",\"position\":\"center center\",\"width\":100,\"height\":100,\"alt\":\"\",\"href\":\"https://www.servicenow.com/\",\"configAria\":\"{\\\"link\\\":{}}\",\"id\":\"height\",\"value\":100,\"propLabel\":\"Height\"}","can_edit":true}]</layout>
+        <sys_class_name>par_dashboard_canvas</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-17 17:47:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1e9af1a9c300fa10c9043eec0501312c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Sharkflix" source="x_1092529_sharkf_0">cee34428c33b2210c9043eec05013129</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sharkflix">cee34428c33b2210c9043eec05013129</sys_scope>
+        <sys_update_name>par_dashboard_canvas_1e9af1a9c300fa10c9043eec0501312c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-17 18:50:56</sys_updated_on>
+    </par_dashboard_canvas>
+</record_update>
